@@ -18,10 +18,6 @@ function calculateRentalCost(days) {
     return price - SHORT_TERM_DISCOUNT;
   }
 
-  if (days < 0) {
-    return 'Enter a valid number of days';
-  }
-
   return price;
 }
 
